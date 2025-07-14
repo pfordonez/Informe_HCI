@@ -1,0 +1,164 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{enumitem}
+\geometry{a4paper, margin=2.5cm}
+
+\title{Titulo de la Aplicación Inmersiva }
+\author{Nombre del equipo o autores}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este informe presenta los resultados de la aplicacin y evaluación de una aplicación inmersiva utilizando instrumentos estandarizados como SUS, NASA-TLX e IPQ, además de métricas multisensoriales. El proceso se enmarcó en una metodología de Aprendizaje Basado en la Investigación (ABI), involucrando activamente a los usuarios en la reflexión y análisis de la experiencia.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introducción}
+\begin{itemize}
+    \item Contexto del desarrollo de la aplicación inmersiva.
+    \item Tecnología utilizada (ej. Meta Quest, Unity, Unreal Engine, WebXR, etc.).
+    \item Propósito de la evaluación y objetivos generales.
+    \item Justificación del uso de herramientas como SUS, NASA-TLX, IPQ y métricas multisensoriales.
+    \item Rol del enfoque ABI como parte de la evaluación participativa.
+\end{itemize}
+
+\section{Marco Teórico}
+
+\subsection{Realidad Inmersiva}
+Abarca la realidad inmersiva abarca tecnologías como la realidad virtual (VR), aumentada (AR) y mixta (MR), cuyo objetivo es generar una sensación de presencia dentro de un entorno digital. Estas tecnologías permiten al usuario interactuar con objetos virtuales en tiempo real, utilizando dispositivos como visores, controladores hápticos y sensores de movimiento. La calidad de la experiencia depende de factores como la fidelidad visual, la latencia, el audio espacial y la retroalimentación multisensorial.
+
+\subsection{Métricas Multisensoriales}
+Explica las deficiones en las experiencias inmersivas, la integración de múltiples canales sensoriales (visual, auditivo, háptico, incluso vestibular) puede mejorar significativamente la percepción de realismo. Las métricas multisensoriales evalúan el impacto de estos estímulos, ya sea mediante cuestionarios subjetivos o técnicas objetivas como el análisis de interacción, grabaciones biométricas o tests de rendimiento. Estas métricas son fundamentales para comprender cómo la estimulación sensorial contribuye a la experiencia inmersiva y la carga cognitiva.
+
+\subsection{Aprendizaje Basado en la Investigación (ABI)}
+El Aprendizaje Basado en la Indagación (ABI) es un enfoque pedagógico centrado en la exploración activa por parte del aprendiz. En el contexto de evaluación de aplicaciones, ABI permite que los usuarios adopten un rol activo en la formulación de preguntas, la recolección de datos, la interpretación de evidencias y la reflexión crítica sobre su experiencia. Esta estrategia fomenta el pensamiento analítico y permite identificar oportunidades de mejora que van más allá de las métricas cuantitativas tradicionales. ABI resulta particularmente útil cuando se busca una comprensión profunda del impacto de una aplicación desde la perspectiva del usuario.
+
+Plantea las preguntas que hiciste para lograr un resultado, por ejemplo ¿Que elementos de IA esta usando Unity para integrar las soluciones?
+
+\subsection{Integración de Enfoques}
+Explica como la combinación de instrumentos como SUS, NASA-TLX e IPQ con métricas multisensoriales y el enfoque ABI proporciona una evaluación integral de la experiencia inmersiva. Mientras que los cuestionarios ofrecen resultados comparables y cuantificables, ABI permite interpretar esos datos desde una lógica participativa y reflexiva, enriqueciendo así el análisis y las decisiones de rediseño.
+
+
+
+\section{Metodología}
+
+\subsection{Diseño de la aplicación y evaluación}
+\begin{itemize}
+    \item Diagramas UML que representen los componentes o su arquitectura
+\end{itemize}
+
+\subsection{Instrumentos utilizados para la evaluación}
+\begin{itemize}
+    \item \textbf{SUS (System Usability Scale)}: Evaluación general de la usabilidad.
+    \item \textbf{NASA-TLX}: Medición de carga cognitiva (mental, física, temporal, desempeño, esfuerzo, frustración).
+    \item \textbf{IPQ (Igroup Presence Questionnaire)}: Evaluación de la sensación de presencia.
+    \item \textbf{Métricas multisensoriales}: Observación del impacto de estímulos visuales, auditivos, táctiles, etc.
+    \item \textbf{Ficha de observación ABI}: Instrumento para apoyar la indagación desde la perspectiva del usuario.
+\end{itemize}
+
+\subsection{Desarrollo}
+\begin{enumerate}
+    \item Preparación del entorno y dispositivos.
+    \item Tecnología Usada
+    \item Uso de la app inmersiva.
+    \item Aplicación de los instrumentos post-uso.
+    \item Actividad ABI (formulación de pregunta, exploración, reflexión).
+\end{enumerate}
+
+\section{Resultados}
+
+\subsection{Resultados cuantitativos}
+
+\subsubsection{Escala SUS}
+\begin{table}[h!]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Participante} & \textbf{Puntaje SUS (/100)} \\
+\midrule
+P1 & 78.5 \\
+P2 & 85.0 \\
+... & ... \\
+\textbf{Promedio} & \textbf{82.3} \\
+\bottomrule
+\end{tabular}
+\caption{Resultados de la escala SUS}
+\end{table}
+
+\subsubsection{NASA-TLX}
+\includegraphics[width=\textwidth]{nasa-tlx-grafico.pdf} % Puedes insertar un gráfico aquí
+
+\subsubsection{IPQ}
+\begin{itemize}
+    \item Presencia espacial: media = 5.1 / 7
+    \item Implicación: media = 4.7 / 7
+    \item Realismo: media = 4.9 / 7
+\end{itemize}
+
+\subsubsection{Métricas multisensoriales}
+Al menos una.
+\begin{itemize}
+    \item Estímulo auditivo: 90\% de los usuarios lo consideró inmersivo.
+    \item Estímulo visual: 100\% de los usuarios reportó realismo alto.
+    \item Estímulo háptico: solo presente en versión beta (datos limitados).
+\end{itemize}
+
+\subsection{Resultados cualitativos (ABI)}
+Lo que aplique:
+
+\begin{itemize}
+    \item \textbf{Pregunta de indagación planteada}: ¿Cómo influye el sonido ambiental en mi sensación de estar dentro del mundo virtual?
+    \item \textbf{Hipótesis}: Los sonidos envolventes aumentan la sensación de presencia.
+    \item \textbf{Evidencias}: Observaciones durante la navegación, comparaciones con experiencias sin sonido.
+    \item \textbf{Reflexiones}: El audio fue determinante para la orientación espacial y la atención.
+\end{itemize}
+
+\section{Análisis e Interpretación}
+
+Lo que aplique:
+
+\begin{itemize}
+    \item Comparación entre carga cognitiva (NASA-TLX) y usabilidad (SUS).
+    \item Correlaciones entre realismo y presencia (IPQ).
+    \item Contribución de estímulos multisensoriales a la inmersión total.
+    \item Efectividad del enfoque ABI como herramienta de evaluación participativa.
+\end{itemize}
+
+\section{Conclusiones}
+\begin{itemize}
+    \item La aplicación inmersiva mostró altos niveles de usabilidad y presencia.
+    \item El uso de herramientas multisensoriales reforzó la experiencia del usuario.
+    \item La metodología ABI promovió una reflexión crítica valiosa desde el usuario.
+\end{itemize}
+
+\section{Recomendaciones}
+Lo que aplique:
+\begin{itemize}
+    \item Integrar retroalimentación háptica de manera más consistente.
+    \item Ampliar la muestra de usuarios para futuras evaluaciones.
+    \item Profundizar en el uso de ABI como parte del diseño iterativo.
+\end{itemize}
+
+\section{Referencias} 
+
+\section*{Anexos}
+\begin{itemize}
+    \item Copias de los cuestionarios aplicados.
+    \item Ficha de observación ABI.
+    \item Capturas de pantalla de la app.
+    \item Gráficos de resultados (NASA-TLX, IPQ).
+    \item Consentimientos informados (por ahoro no).
+\end{itemize}
+
+\end{document}
